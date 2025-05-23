@@ -22,11 +22,14 @@ Projeto simples de simulação de operações bancárias, desenvolvido com Progr
    git clone https://github.com/andre3tcss/sistema-bancario-java.git
 Abrir no Eclipse ou IDE compatível
 Rodar a classe Main.java
-🎯 Funcionalidades
+
+## 🎯 Funcionalidades
+
 Criação de contas (corrente e poupança)
 Saques com taxa (corrente)
 Simulação de rendimento (poupança)
 Depósitos e consulta de saldo
-Listagem de contas
-📄 Licença
+Listagem de contas 
+
+## 📄 Licença
 Este projeto é livre para uso educacional.
