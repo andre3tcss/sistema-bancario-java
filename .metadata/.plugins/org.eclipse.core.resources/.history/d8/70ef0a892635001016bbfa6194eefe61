@@ -1,0 +1,30 @@
+package br.com.andre.sistemabancario;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Banco banco = new Banco();
+		
+		// Criando contas
+		ContaCorrente conta1 = new ContaCorrente("Michael");
+		ContaPoupanca conta2 = new ContaPoupanca("Ana");
+
+		// Adicionando ao banco
+		banco.adicionarConta(conta1);
+		banco.adicionarConta(conta2);
+		
+		// Operações
+		conta1.depositar(1000);
+		conta1.sacar(300);
+		conta1.exibirSaldo();
+		
+		conta2.depositar(2000);
+		conta2.simularRendimentoMensal();
+		conta2.exibirSaldo();
+		
+		System.out.println();
+		banco.listarContas();
+		
+	}
+}
